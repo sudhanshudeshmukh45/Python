@@ -1,5 +1,5 @@
 #Slicing In Arrays
-#variablearray = arrayname[starting:ending:steps]
+#variablearray = arrayname[starting_index:ending_index:steps]
 
 arr = [3,4,2,4,23,64,86,65,21,89,90,56,44]
 
