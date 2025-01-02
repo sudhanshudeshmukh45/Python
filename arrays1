@@ -1,0 +1,66 @@
+#Defining Array
+arr = [5,6,2,16,21,52]
+
+for i in range(0,len(arr)):
+    print(arr[i],end=" ")
+print("\n")
+
+# 5 6 2 16 21 52 
+
+# Insert an element at the end of array
+#arr.append(value)
+arr.append(90)
+
+for i in range(0,len(arr)):
+    print(arr[i],end=" ")
+print("\n")
+
+# 5 6 2 16 21 52 90
+
+#Insert Element at a Specific Position / Replace values Array
+#arr.insert(index,value)
+arr.insert(2,50)
+arr.insert(5,75)
+
+for i in range(0,len(arr)):
+    print(arr[i],end=" ")
+print("\n")
+
+# 5 6 50 2 16 75 21 52 90
+
+#Update a Element in Array
+#arrayname[index]=value
+arr[2] = 87
+arr[7] = 76
+
+for i in range(0,len(arr)):
+    print(arr[i],end=" ")
+print("\n")
+
+# 5 6 87 2 16 75 21 76 90
+
+#deleting elements in array
+#arrayname.pop(index)
+
+arr.pop(2)
+
+for i in range(0,len(arr)):
+    print(arr[i],end=" ")
+print("\n")
+
+
+# 5 6 2 16 75 21 76 90 
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
