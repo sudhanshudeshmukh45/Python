@@ -1,0 +1,32 @@
+arr = [3,4,2,4,23,64,86,65,21,89,90,56,44]
+
+arr1 = arr[3:6]
+print(arr1)
+
+#[4, 23, 64]
+#inlcudes first element and exclude last index
+
+arr2 = arr[-13]
+print(arr2)
+#3
+
+#Negative Slicing
+#It start from -1 from end.
+
+arr3 = arr[-5:-7]
+print(arr3)
+#This is not possible 
+#[]
+
+arr4 = arr[-7:-5]
+print(arr4)
+#[86, 65]
+
+arr5 = arr[2:7:2]
+print(arr5)
+#[2, 23, 86]
+    
+#Reverse the order using slicing
+arr6 = arr[::-1]
+print(arr6)
+#[44, 56, 90, 89, 21, 65, 86, 64, 23, 4, 2, 4, 3]
