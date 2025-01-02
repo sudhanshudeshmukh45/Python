@@ -1,4 +1,8 @@
+#Slicing In Arrays
+#variablearray = arrayname[starting:ending:steps]
+
 arr = [3,4,2,4,23,64,86,65,21,89,90,56,44]
+
 
 arr1 = arr[3:6]
 print(arr1)
